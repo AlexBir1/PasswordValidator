@@ -1,0 +1,41 @@
+.check-sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.check-section{
+    background-color: rgb(151, 151, 151);
+    width: 4em;
+    height: 0.6em;
+    border-radius: 0.3em;
+}
+
+.check-section.red{
+    background-color: rgb(197, 74, 74);
+}
+
+.check-section.yellow{
+    background-color: rgb(192, 168, 62);
+}
+
+.check-section.green{
+    background-color: rgb(39, 143, 56);
+}
+
+.check-sections-text{
+    color: rgb(151, 151, 151);
+}
+
+.check-sections-text.red{
+    color: rgb(197, 74, 74);
+}
+
+.check-sections-text.yellow{
+    color: rgb(192, 168, 62);
+}
+
+.check-sections-text.green{
+    color: rgb(39, 143, 56);
+}
